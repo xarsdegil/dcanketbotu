@@ -1,0 +1,19 @@
+{
+  "name": "discord-rol-anket-botu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Belirli bir role sahip üyeler için emoji reaksiyonlu Discord anket botu",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.2.1"
+  }
+}
